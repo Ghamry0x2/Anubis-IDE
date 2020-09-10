@@ -37,9 +37,9 @@ STYLES = {
 }
 
 class CSharpHighlighter(QSyntaxHighlighter):
-    """Syntax highlighter for the Python language.
+    """Syntax highlighter for the C Sharp language.
     """
-    # Python keywords
+    # C Sharp keywords
     keywords = [
         'abstract', 'bool',	    'continue',	'decimal',	'default',
         'event',    'explicit',	'extern',	'char',	    'checked',
@@ -64,7 +64,7 @@ class CSharpHighlighter(QSyntaxHighlighter):
         'value',	'var',	    'when',	    'Where',	'yield'
     ]
 
-    # Python operators
+    # C Sharp operators
     operators = [
         '=',
         # logical
